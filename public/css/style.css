@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700&subset=cyrillic,cyrillic-ext');
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=cyrillic-ext,latin);
+
+body {
+    background-color: #fbfbfb;
+    font-size: 13px;
+    font-family: "Open Sans", "Nimbus Sans L", sans-serif;
+    color: #333333;
+    line-height: 20px;
+}
+
+#main {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    box-shadow: 0 0 10px #ddd;
+    -moz-box-shadow: 0 0 10px #ddd;
+    -webkit-box-shadow: 0 0 10px #ddd;
+}
+
+#blog-info {
+    background-image: url("../img/logo.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    float: left;
+    overflow: hidden;
+    padding-left: 60px;
+    height: 70px;
+}
+
+.blog-name {
+    margin-top: 15px;
+    width: 170px;
+    text-align: center;
+
+}
+
+.blog-name a {
+    color: #666666;
+    font-size: 32px;
+}
+
+.blog-slogan {
+    width: 170px;
+    text-align: center;
+}
+
+.blog-slogan span {
+    font-size: 16px;
+    padding: 0 5px;
+    background-color: #0099da;
+    color: #ffffff;
+}
+
+.primary {
+    float: right;
+    margin-top: 25px;
+}
+
+.primary li {
+    float: left;
+}
+
+.primary li a {
+    color: #333;
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.primary li a.active {
+    background-color: #0099da;
+/*    border: medium none;
+    border-radius: 20px;*/
+    color: #ffffff;
+}
+
+.primary li a:hover {
+    color: #0099da;
+}
+
+.primary li a.active:hover {
+    color: #ffffff;
+}
+
+#sub-menu {
+    background-color: #666666;
+    padding: 10px 0;
+    color: #fff;
+}
+
+#sub-menu a {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#main-content {
+    padding-top: 25px;
+
+}
+
+.secondary li {
+    float: left;
+    display: inline-block;
+}
+
+.secondary li::after {
+    border-style: solid;
+    border-width: 0 8px 8px;
+    bottom: 0;
+    content: " ";
+    height: 0;
+    left: calc(50% - 8px);
+    position: absolute;
+    width: 0;
+}
+
+/* All links */
+
+a {
+    text-decoration: none;
+    color: #0099da;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Lists */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+/* Posts */
+
+.post {
+    border: 1px solid #eaeeee;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.review-content {
+    padding: 15px;
+}
+
+.review-info {
+    border-top: 1px solid #eaeeee;
+    padding: 10px 15px;
+}
+
+.img-post {
+    background-color: #eaeeee;
+    border: 1px solid #eaeeee;
+    margin: 0 auto 20px;
+    padding: 5px;
+}
+
+/* Blocks */
+
+.sidebar {
+    margin-bottom: 25px;
+}
+
+.block {
+    margin-bottom: 25px;
+}
+
+h4.block-title {
+    background-color: #0099da;
+    color: #ffffff;
+    display: inline;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    margin: 0 0 0 -15px;
+    padding: 5px;
+}
+
+.block-wraper {
+    background-color: #ffffff;
+    border: 1px solid #eaeeee;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.block-content {
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #333;
+    border-top: 1px solid #555;
+    color: #ccc;
+    padding: 17px 0;
+    margin-top: 50px;
+}
+
+/* Elements */
+
+.btn-ar.btn-primary {
+    background: #0099da linear-gradient(to bottom, #85c9f7 5%, #0099da 100%) repeat scroll 0 0;
+    border: 1px solid #0099da;
+    color: #fff;
+}
