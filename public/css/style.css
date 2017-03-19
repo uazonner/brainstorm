@@ -11,12 +11,47 @@ body {
 
 #main {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #ffffff;
-    border-bottom: 1px solid #ddd;
+    background-color: #0678be;
     padding-bottom: 5px;
     box-shadow: 0 0 10px #ddd;
     -moz-box-shadow: 0 0 10px #ddd;
     -webkit-box-shadow: 0 0 10px #ddd;
+}
+
+#main-menu {
+    float: right;
+}
+
+.header-categories {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    font-size: 22px;
+    color: #bce3fa;
+    margin-right: 75px;
+}
+
+.header-menu {
+    font-size: 40px;
+    color: #ffffff;
+    float: right;
+}
+
+.header-menu ul li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.header-menu a {
+    color: #bce3fa;
+    margin-left: 15px;
+}
+
+.header-menu a:hover {
+    color: #fff;
+    margin-left: 15px;
 }
 
 #blog-info {
@@ -37,7 +72,7 @@ body {
 }
 
 .blog-name a {
-    color: #666666;
+    color: #ffffff;
     font-size: 32px;
 }
 
@@ -49,8 +84,7 @@ body {
 .blog-slogan span {
     font-size: 16px;
     padding: 0 5px;
-    background-color: #0099da;
-    color: #ffffff;
+    color: #bce3fa;
 }
 
 .primary {
@@ -93,12 +127,12 @@ body {
 }
 
 #sub-menu {
-    background-color: #666666;
-    color: #fff;
+    background-color: #bce3fa;
+    color: #0678be;
 }
 
 #sub-menu li a {
-    color: #fff;
+    color: #0678be;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -108,7 +142,7 @@ body {
 }
 
 #sub-menu li a.active {
-    border-bottom: 3px solid #f69c55;
+    border-bottom: 3px solid #0678be;
 }
 
 #main-content {
@@ -123,8 +157,8 @@ body {
 }
 
 .output-switcher i {
-    background-color: #9fa6ad;
-    color: #fff;
+    background-color: #ffffff;
+    color: #0678be;
     font-size: 1.5em;
     height: 50px;
     margin-right: 15px;
