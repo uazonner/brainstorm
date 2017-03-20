@@ -49,8 +49,8 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     float: left;
-    margin-left: 15px;
-    margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
 }
 .header-menu a {
     color: #bce3fa;
@@ -331,3 +331,48 @@ h4.post-title {
 }
 
 /* End Login or Register */
+
+/* Header search */
+
+.search-header {
+    float: left;
+    margin: 15px 0 15px 15px;
+}
+
+.search-header input {
+    background: #bce3fa;
+    border: none;
+    border-radius: 3px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    width: 270px;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 10px;
+    float: left;
+}
+
+.search-header input::-webkit-input-placeholder {color:#0678be;}
+.search-header input::-moz-placeholder          {color:#0678be;}/* Firefox 19+ */
+.search-header input:-moz-placeholder           {color:#0678be;}/* Firefox 18- */
+.search-header input:-ms-input-placeholder      {color:#0678be;}
+
+.search-header:hover input, .search input:focus {
+/*    width: 270px;
+    margin-left: 0px;*/
+}
+
+.search-header a {
+    font-size: 40px;
+    background: #0678be;
+    /*position: absolute;*/
+    color: #bce3fa;
+    /*padding: 0px 0px 10px 10px;*/
+    float: right;
+}
+
+.search-header a:hover {
+    color: #ffffff;
+}
+
+/* End header search */

@@ -1,7 +1,6 @@
 @extends('frontend.layouts.main')
 
 @section('content')
-    <div class="row">
         <div id="login-or-register">
 
             <h3>Войдите, или <a href="#">Зарегистрируйтесь</a></h3>
@@ -186,7 +185,4 @@
                 </div>
             </div>
         </div>--}}
-
-
-    </div>
 @endsection
