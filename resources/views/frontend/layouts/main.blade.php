@@ -42,7 +42,7 @@
             @yield('content')
         </div>
     </section>
-</div>>
+</div>
 @include('frontend.includes.footer')
 @include('frontend.includes.footer-js')
 </body>
