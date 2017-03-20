@@ -1,0 +1,1 @@
+<script src="{!! asset('test/app.js') !!}"></script>

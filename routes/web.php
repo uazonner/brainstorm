@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('main');
-});
+/* Home directory */
+Route::get('/', 'PostController@all');
 
 Auth::routes();
 

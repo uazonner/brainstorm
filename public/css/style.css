@@ -7,6 +7,14 @@ body {
     font-family: "Open Sans", "Nimbus Sans L", sans-serif;
     color: #333333;
     line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#app {
+    margin-bottom: 50px;
+    flex: 1 !important;
 }
 
 #main {
